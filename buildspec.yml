@@ -22,7 +22,7 @@ phases:
   post_build:
     commands:
       - echo Applying Terraform Plan...
-      - terraform apply -auto-approve tfplan
+      - terraform apply -auto-approve 
 
 artifacts:
   files: []
