@@ -1,6 +1,6 @@
 variable "name" {
   type        = string
-  default     = "maxbill"
+  default     = "maxbill-clops"
   description = "Name of the ecr"
 }
 
