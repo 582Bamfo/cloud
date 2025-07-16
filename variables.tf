@@ -1,6 +1,6 @@
 variable "name" {
   type        = string
-  default     = "cloud"
+  default     = "maxbill"
   description = "Name of the ecr"
 }
 
