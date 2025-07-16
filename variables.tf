@@ -1,6 +1,6 @@
 variable "name" {
   type        = string
-  default     = "cloud_security"
+  default     = "cloud"
   description = "Name of the ecr"
 }
 
