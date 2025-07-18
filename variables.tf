@@ -1,6 +1,6 @@
 variable "name" {
   type        = string
-  default     = "clops"
+  default     = "clopsdev"
   description = "Name of the ecr"
 }
 
