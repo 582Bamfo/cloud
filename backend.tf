@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "wild-global-tect"
+    bucket = "body-425"
     key    = "ecr/terraform.tfstate"
-    region = "eu-west-1"
+    region = "eu-west-2"
   }
 }
