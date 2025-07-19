@@ -1,6 +1,6 @@
 variable "name" {
   type        = string
-  default     = "pricing"
+  default     = "stage-pricing"
   description = "Name of the ecr"
 }
 
