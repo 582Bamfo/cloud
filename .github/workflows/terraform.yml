@@ -50,3 +50,9 @@ jobs:
 
       - name: Terraform Apply
         run: terraform apply -auto-approve tfplan
+  complete:
+    needs: terraform
+    runs-on: ubuntu-latest
+    steps:
+      - name: apply completed
+        run: echo "Terraform apply completed successfully!"
