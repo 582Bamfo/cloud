@@ -1,7 +1,7 @@
 variable "name" {
   type        = string
   default     = "stage-pricing"
-  description = "Name of the ecr"
+  description = "Name of the ecr repository"
 }
 
 variable "image_tag_mutability" {
