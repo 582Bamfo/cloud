@@ -49,7 +49,7 @@ jobs:
         run: terraform plan 
 
       - name: Terraform Apply
-        run: terraform apply-destroy -auto-approve 
+        run: terraform apply -destroy -auto-approve 
   complete:
     needs: terraform
     runs-on: ubuntu-latest
